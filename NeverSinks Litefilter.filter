@@ -13,6 +13,27 @@
 # PATREON: https://www.patreon.com/Neversink
 
 #--------------------------
+# Overrides - Monk Gear Armor with Energy Shield, Quarterstaff
+#--------------------------
+
+Show
+Class "Body Armour" "Boots" "Gloves" "Helmet" 
+BaseType "Garb" "Jacket" "Shoes" "Mask" "Wraps" 
+SetFontSize 40
+SetTextColor 233 206 75
+SetBorderColor 233 206 75
+PlayEffect Yellow
+MinimapIcon 1 Yellow Diamond
+
+Show
+Class "Quarterstaves"
+SetFontSize 40
+SetTextColor 233 206 75
+SetBorderColor 233 206 75
+PlayEffect Yellow
+MinimapIcon 1 Yellow Diamond
+
+#--------------------------
 # Overrides - Uniques, Valuables
 #--------------------------
 

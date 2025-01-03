@@ -18,12 +18,14 @@
 
 Show
 Class "Body Armour" "Boots" "Gloves" "Helmet" 
-BaseType "Garb" "Jacket" "Shoes" "Mask" "Wraps"
+BaseType == "Garb" "Jacket" "Shoes" "Mask" "Wraps"
+ItemLevel >= 65
 SetFontSize 40
 
 
 Show
 Class "Quarterstaves"
+ItemLevel >= 65
 SetFontSize 40
 
 
